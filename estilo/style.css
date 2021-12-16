@@ -1,15 +1,28 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
+    background-color: rgb(35, 105, 35);
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
 }
 
+header img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
 nav {
-    background-color: rgb(31, 139, 31);
+    background-color: rgb(35, 105, 35);
     padding: 10px;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.336);
 }
 
