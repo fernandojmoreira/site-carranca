@@ -85,15 +85,16 @@ section.destaque {
     color: black;
 }
 
-section.noticia01 {
-    background-color: darkgray;
+section.noticias {
+    background-color: rgba(0, 0, 0, 0.466);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.39);
     background-size: cover;
     background-attachment: fixed;
+    border-radius: 5px;
 }
 
-section.noticia01 > p {
+section.noticias > p {
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px;
@@ -109,4 +110,23 @@ section.logos > img {
     padding: 10px;
     display: block;
     margin: auto;
+}
+
+footer {
+    background-color: rgb(80, 110, 80);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
 }
