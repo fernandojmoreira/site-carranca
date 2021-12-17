@@ -58,9 +58,20 @@ main {
 
 main h1 {
     font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main h2 {
+    font-weight: bold;
     font-size: 2.0em;
     text-align: center;
     padding-bottom: 20px;
+}
+
+main img {
+    width: 100%;
 }
 
 section {
@@ -69,7 +80,12 @@ section {
     line-height: 1.8em;
 }
 
-section.imagem {
+section.destaque {
+    background-color: white;
+    color: black;
+}
+
+section.noticia01 {
     background-color: darkgray;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.39);
@@ -77,13 +93,20 @@ section.imagem {
     background-attachment: fixed;
 }
 
-section.imagem > p {
+section.noticia01 > p {
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px;
 }
 
 section#img01 {
-    background-image: url(../imagens/img01.jpg);
-    background-position: center bottom;
+    background-image: url(../imagens/pg-noticias2000.jpg);
+    background-position: left bottom;
+}
+
+section.logos > img {
+    max-width: 500px;
+    padding: 10px;
+    display: block;
+    margin: auto;
 }
